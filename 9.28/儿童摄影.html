@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>儿童摄影</title>
+    <style type="text/css">
+    /*重置浏览器的默认样式*/
+    *{margin:0; padding:0; list-style:none; outline:none;border:0; background:none;}
+    /*全局控制*/
+    body{font-family:"微软雅黑";background: #fdfdfd;}
+    #bg{
+        width:980px;
+        height:617px;
+        background:url(images/bg.jpg);
+        margin:0 auto;
+        padding:10px auto;
+    }
+    .nav{
+        width:848px;
+        height: 46px;
+        background:url(images/nav.jpg) no-repeat;
+        margin:auto 0;
+        padding:40px 0px 0px 123px;
+    }
+    .nav span{
+        color:darkblue;
+        font-size: 16px;
+        padding:0px 30px;
+    }
+    .nav .margin_more{       
+       margin-right: 240px;
+    }
+    #exhibition{
+        width:980px;
+        height: 290px;
+        background:url(images/xinshang.jpg);
+        margin:0 auto;
+        padding-top:170px;
+    }
+    #exhibition.pic{
+        width:916px;
+        height: 260px;
+        margin:auto 0;
+    }
+    #exhibition .pic img{
+        margin-left: 70px;
+    }
+    #news{
+	width:980px; 
+	height:300px; 
+	background:url(images/dongtai.jpg) 60px top no-repeat; 
+	margin:18px auto; 
+	padding-top:120px;
+}
+#footer{
+    width:100%;
+    height:80px;
+    background:url(images/footer_bg.jpg) repeat-x ;
+    color:darkorange;
+    text-align:center;
+    line-height: 80px;
+}
+.tree{
+    position:fixed; right: 5%;bottom:5%; 
+}
+.news_con{
+	width:294px; 
+	height:256px; 
+	float:left; 
+	margin-left:29px;
+}
+.news_con .one{
+	width:284px; 
+	height:50px; 
+	padding-left:10px;
+	line-height:50px; 
+	font-weight:bold; 
+	font-size:16px; 
+	border-bottom:1px solid #ddd;
+}
+.news_con .two{
+	width:284px;
+	height:70px;
+	line-height:20px; 
+	padding:10px 0 0 10px; 
+	font-size:12px; 
+	color:#bbb; 
+}
+.news_con .shadow{
+	width:294px; 
+	height:5px; 
+	background:url(images/yinying.jpg) no-repeat; 
+}
+
+    </style>
+</head>
+<body>
+    <!-- bg begin-->
+<div id="bg">
+    <div class="nav">
+        <span>网站首页</span>
+        <span class="margin_more">关于我们</span>      
+        <span >摄影作品</span>
+        <span>联系我们</span>
+    </div>
+</div>
+<!-- bg end-->
+<!-- news begin-->
+<div id="news">
+    <div class="news_con">
+        <img src="images/news1.jpg" />
+        <h2 class="one">优惠活动</h2>
+        <p class="two">新年订单有特大惊喜！</p>
+        <p class="shadow"></p>
+    </div>
+    <div class="news_con">
+        <img src="images/news2.jpg" />
+        <h2 class="one">宝贝写真应注意什么？</h2>
+        <p class="two">孩子拍摄的时候如果是陌生人接触的话会比较容易哭闹，如果换做是亲近的或者比较平时比较熟悉玩得来的就会好很多。</p>
+        <p class="shadow"></p>
+    </div>
+    <div class="news_con">
+        <img src="images/news3.jpg" />
+        <h2 class="one">宝贝庆生会</h2>
+        <p class="two">为新生宝宝准备的生日party,参与者可获得精美生日礼物一份。</p>
+        <p class="shadow"></p>
+    </div>
+</div>
+<!-- news end-->
+<!--exhibition begin-->
+<div id="exhibition">
+    <div class="pic">
+        <img src="images/img1.jpg" />
+        <img src="images/img2.jpg" />
+        <img src="images/img3.jpg" />
+        <img src="images/img4.jpg" />
+    </div>
+</div>
+<!--exhibition end-->
+<!--footer begin-->
+<div id="footer">青春树版权所有2000-2016京ICP备08001421号&nbsp;&nbsp;京公网安备110108007702</div>
+<!--footer end-->
+<!--tree begin-->
+<div class="tree"><img src="images/erweima.png"/></div>
+<!--tree end-->
+
+</body>
+</html>
