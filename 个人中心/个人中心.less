@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F8FB;
+}
+
+//头像部分 
+.head_box {
+    width: 100%;
+    height: 45.333vw;
+    background-image: linear-gradient(to right, #FD1633, #FF7D51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .head_img {
+        width: 17.333vw;
+        height: 17.333vw;
+
+        img {
+            width: 17.333vw;
+            height: 17.333vw;
+            border-radius: 50%;
+        }
+    }
+
+    .head_text {
+        margin-top: 2.667vw;
+        color: #ffffff;
+        font-size: 4.533vw;
+    }
+}
+
+// 主体部分
+.conter_box {
+    margin-top: -6.667vw;
+
+    // 下单
+    .order_box {
+        width: 94vw;
+        height: 17.333vw;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 1.333vw;
+        margin: 0 auto;
+
+        .order_text {
+            display: flex;
+
+            span {
+                display: block;
+                text-align: center;
+                line-height: 0.533vw;
+                font-size: 5.333vw;
+                padding: 2.667vw;
+            }
+
+            .text {
+                font-size: 3.733vw;
+            }
+        }
+
+        .hr_text {
+            width: 0.267vw;
+            height: 9.333vw;
+            border: 0.267vw solid #EEEEEE;
+        }
+    }
+
+    // 订单
+    .indet {
+        width: 94vw;
+        height: 30.133vw;
+        background-color: #ffffff;
+        margin: 4.267vw auto;
+        border-radius: 1.333vw;
+
+        .myindet_box {
+            width: 100%;
+            height: 11.733vw;
+            border-bottom: 0.267vw solid #E8E8E8;
+            line-height: 11.733vw;
+            ;
+            display: flex;
+
+            span {
+                margin-left: 4.533vw;
+                font-size: 5.333vw;
+            }
+
+            .myindet {
+                margin-left: 1.867vw;
+                font-size: 3.733vw;
+            }
+        }
+
+        .indet_center {
+            width: 100%;
+            height: 18.667vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .span_box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                span {
+                    font-size: 6.133vw;
+                }
+
+                .indet_text {
+                    font-size: 3.2vw;
+
+                }
+
+            }
+        }
+    }
+
+    // 地址
+    .site_box {
+        width: 94vw;
+        height: 49.333vw;
+        background-color: #ffffff;
+        margin: 0 auto;
+        border-radius: 1.333vw;
+        margin-bottom: 4.267vw;
+
+        .site_list {
+            .item {
+                height: 12.333vw;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .left {
+                    display: flex;
+                    align-items: center;
+
+                    span {
+                        margin: 0 2.667vw;
+                        font-size: 5.067vw;
+                        color: #CFCFCF;
+                    }
+
+                    .site_text {
+                        font-size: 3.467vw;
+                    }
+
+                }
+
+                .right {
+                    margin-right: 2.667vw;
+
+                    span {
+                        font-size: 5.067vw;
+                    }
+                }
+            }
+        }
+    }
+
+    // 退出
+    .quit_box {
+        width: 94vw;
+        height: 24.333vw;
+        background-color: #ffffff;
+        margin: 0 auto;
+        border-radius: 1.333vw;
+        margin-bottom: 4.267vw;
+
+        .site_list {
+            .item {
+                height: 12.333vw;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .left {
+                    display: flex;
+                    align-items: center;
+
+                    span {
+                        margin: 0 2.667vw;
+                        font-size: 5.067vw;
+                        color: #CFCFCF;
+                    }
+
+                    .site_text {
+                        font-size: 3.467vw;
+                    }
+
+                }
+
+                .right {
+                    margin-right: 2.667vw;
+
+                    span {
+                        font-size: 5.067vw;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+// 底下导航栏
+.bar_box {
+    width: 100%;
+    height: 12vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    .nava_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #848484;
+        span {
+            font-size: 4.8vw;
+           
+        }
+
+        .bar_text {
+            font-size: 2.667vw;
+        }
+    }
+
+    // 选中状态
+    .centerd {
+        color: #FD333A !important;
+    }
+}
+
+// 用于填充防止遮挡
+.tbat {
+    // width: 100vw;
+    height: 12vw;
+}
